@@ -1,0 +1,90 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        }
+
+        h1 {
+            color: #f1c40f;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .controls label {
+            font-size: 14px;
+            margin-right: 10px;
+        }
+
+        input,
+        button {
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+            font-size: 14px;
+        }
+
+        input {
+            width: 100px;
+        }
+
+        button {
+            background-color: #2980b9;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #3498db;
+        }
+
+        #chart {
+            width: 100%;
+            height: 400px;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+        }
+
+        .legend {
+            margin-top: 20px;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .legend div {
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+        }
+
+        .legend div span {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            margin-right: 5px;
+        }
+
+        .legend .capacity {
+            background-color: blue;
+        }
+
+        .legend .spectral {
+            background-color: red;
+        }
+    

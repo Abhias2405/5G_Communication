@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Massive MIMO Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Massive MIMO Simulation</h1>
+        <div class="controls">
+            <div>
+                <label for="antennas">Number of Antennas:</label>
+                <input type="number" id="antennas" min="1" max="1000" value="64">
+            </div>
+            <div>
+                <label for="users">Number of Users:</label>
+                <input type="number" id="users" min="1" max="100" value="10">
+            </div>
+            <div>
+                <button onclick="runSimulation()">Run Simulation</button>
+            </div>
+        </div>
+        <canvas id="chart"></canvas>
+
+        <div class="legend">
+            <div><span class="capacity"></span>Capacity</div>
+            <div><span class="spectral"></span>Spectral Efficiency</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
