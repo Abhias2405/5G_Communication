@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCS Simulation GUI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>MCS Simulation</h1>
+        <div class="controls">
+            <select id="modulation">
+                <option value="BPSK">BPSK</option>
+                <option value="QPSK">QPSK</option>
+                <option value="16-QAM">16-QAM</option>
+                <option value="64-QAM">64-QAM</option>
+            </select>
+            <select id="channel">
+                <option value="AWGN">AWGN</option>
+                <option value="Rayleigh">Rayleigh</option>
+            </select>
+            <button onclick="runSimulation()">Run Simulation</button>
+        </div>
+        <canvas id="chart" width="800" height="400"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
