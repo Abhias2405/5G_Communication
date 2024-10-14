@@ -1,0 +1,29 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #121212;
+            color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .controls {
+            margin-bottom: 20px;
+        }
+
+        select,
+        button,
+        input {
+            margin-right: 10px;
+            padding: 5px;
+        }
+
+        #trafficChart {
+            width: 100%;
+            height: 600px;
+        }
