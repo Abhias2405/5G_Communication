@@ -101,5 +101,5 @@ function drawGridLines(ctx, width, height) {
     ctx.stroke();
 }
 
-// Initial simulation
+
 runSimulation();
